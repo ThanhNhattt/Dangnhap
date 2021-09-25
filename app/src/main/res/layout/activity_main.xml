@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng Nhập"
+            android:textColor="#111"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:textSize="40dp" />
+
+        <EditText
+            android:id="@+id/idname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tai Khoan"
+            android:layout_marginHorizontal="20dp"
+            android:inputType="textPersonName"
+            android:textSize="23dp" />
+
+        <EditText
+            android:id="@+id/idpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Mat Khau"
+            android:layout_margin="20dp"
+            android:inputType="textPassword"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/buttonDangNhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng Nhâp"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="110dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:textSize="25dp"
+            />
+
+        <Button
+            android:id="@+id/buttonHuyBo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hủy Bỏ"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="110dp"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+</LinearLayout>
